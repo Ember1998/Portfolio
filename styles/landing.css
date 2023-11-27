@@ -244,6 +244,27 @@ letter.initial
       top: 90%;
     }
   }
+    @media (max-width: 1024px) {
+      .proj-button-img 
+      {
+        overflow: hidden;
+        transition: transform .5s;
+        max-width: 200%;
+        width: auto;
+        height: auto;
+        vertical-align: middle;
+      }
+  }
+  @media (max-height: 500px) {
+    p {
+      left: 0;
+      position: relative;
+      top: 0;
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0);
+    }
+  }
+
   @media (max-height: 500px) {
     p {
       left: 0;
@@ -379,7 +400,7 @@ letter.initial
 {
 	overflow: hidden;
 	transition: transform .5s;
-	max-width: 100%;
+	min-width: 100%;
 	width: auto;
   height: auto;
   vertical-align: middle;
