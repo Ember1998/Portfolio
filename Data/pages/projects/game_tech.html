@@ -1,54 +1,40 @@
-<link rel="stylesheet" type="text/css" href="./styles/project_styles/game_tech.css"/> <!-- Not strictly necessary as imported in parenting index -->
+<link rel="stylesheet" type="text/css" href="./styles/project_styles/exalted.css"/> <!-- Not strictly necessary as imported in parenting index -->
 
+<div id="mirage_body">
+    <div class="mirage_text">
+        Javra Software, founded in 1999 in the Netherlands, is an international IT company that provides custom software solutions, AI/ML services, web and mobile application development, and eCommerce platforms. With headquarters in Culemborg, the company has expanded globally with offices in Nepal (since 2006) and Portugal (since 2022), operating on offshore, nearshore, and onshore delivery models to serve diverse client needs. 
+        
+    </div>
+</div>
 <hr>
 
-<div id="tech_title">Game Tech</div>
+<div id="exalted_title">Breeding Inventory Application</div>
 
-<div id="tech_quote">"The precomputed A* paths make for a very efficient AI." Dr Rich Davison</div>
-<div id="tech_quote">"A very good example of game technologies." Dr Rich Davison</div>
 <br>
 
-<div id="tech_tldr">
-    <img src="https://img.shields.io/badge/Build%20Date-08.12.19-informational" alt="build_date"/>
-    <img src="https://img.shields.io/badge/Category-AI-FF64FF" alt="category_AI" />
-    <img src="https://img.shields.io/badge/Category-Physics-FF64FF" alt="category_Physics" />
-    <img src="https://img.shields.io/badge/Category-Networking-FF64FF" alt="category_Networking" />
-    <img src="https://img.shields.io/badge/Language-C++-brightgreen" alt="language" />
-</div>
-<div id="github_link_tech">    
-    <a href="https://github.com/Kney-Delach/Game-Technologies-CSC8503" target="_blank"><i id="github_link_tech" class="fa fa-github"></i></a>
+<div id="exalted_tldr">
+    <img src="https://img.shields.io/badge/Build%20Date-27.10.25-informational" alt="date" />
+    <img src="https://img.shields.io/badge/Category-Breeding%20System-FF64FF" alt="category" />
+    <img src="https://img.shields.io/badge/Framework-.NET%208.0-orange" alt="engine" />
+    <img src="https://img.shields.io/badge/Language-C%23-brightgreen" alt="language" />
+    <img src="https://img.shields.io/badge/Front%20End-React-red" alt="core-dynamic" />
+    <img src="https://img.shields.io/badge/Deployment-Azure-blue" alt="core-dynamic" />
+
 </div>
 
-<div id="tech_body">
-    <div class="tech_text">
-        Grade: 90%
+<div id="exalted_body">
+    <div class="exalted_text">
+        <br>
+
+        <br>
+
+        <br>
+        BIA is a specialized software platform designed to manage, analyze, and utilize plant breeding and research data and manipulate the data accordingly.
+        <br>
+        This project is built on .Net 8 with the integration of Azure service Application and Azure SQL Database.
         <br>
         <br>
-        This project was completed as a coursework during my MSc. The aim within the game is to collect objects and bring them back to the player's spawn island without being caught by the AI, based on the Untitled Goose Game.
-        <br>
-        <br>
-        The physics system is based on Newtonian Physics, which involve forces acting on matter whilst adhering to the laws of motion and gravity, with this implementation using semi-implicit Euler integration.
-        There are a variety of collision detection methods, which dynamically use projection, impulse, penalty and constraint resolutions in order to simulate dynamic behaviour between entities and their environment.
-        In the future I would be interested in attempting to implement the GJK algorithm for convex shape collisions.
-        <br>
-        <br>
-        I definitely feel that working on the AI resonated with me the most, I implemented hierarchical state machines for my complex AI, and a simple state machine for a basic version of the AI (as requested by the specification). 
-        However, the section of which I am most proud of is my implementation for precomputed A* maps, I was the only student in my class to attempt this method, and it worked tremendously well! Combined with pre-processing map data into files, this resulted in a constant cost of A* path calculation during run-time, which allowed me to include a very large number of AI units.
-        <br>
-        <br>
-        For my menu system I implemented a Pushdown Automata, which when combined with loading my level data in from files, helped me rapidly prototype my game level design and thus saving me a lot of time in re-compilation, as the menu state was always saved and allowed me to dynamically load in new level-data during run-time.  
-        <br>
-        <br>
-        Networking was the section of this project which I had spent the least amount of time on, I implemented a Peer-to-Peer network where one client was setup as the server, which I would like to improve on by the use of server snapshot storage and delta-packeting.        
-        <br>
-        <br>
-        The list of features can be found in the project's github repository.
+        It uses Phenome by providing researchers, breeders, and agricultural organizations with tools to store and organize genetic, phenotypic, and environmental information, track experiments and crop traits, and evaluate the performance of different plant varieties.
     </div>
 </div>
 <br>
-
-<div id="tech_youtube">
-    <iframe width="620" height="415" src="https://www.youtube.com/embed/SgW1vp6QHAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-</div>
-
